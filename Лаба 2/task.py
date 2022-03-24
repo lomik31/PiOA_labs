@@ -16,7 +16,7 @@ def noName(dict):
     return list
 def main():
     list = noName(countValues(generateList(15)))
-    if list == []: return print("Нет повторяющихся значений")
-    print(max(list))
+    if list == []: print("Нет повторяющихся значений")
+    else: print(max(list))
 if __name__ == "__main__":
     main()
