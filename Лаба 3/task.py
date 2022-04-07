@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, number:int, lastName: str, marks: dict) -> None:
+    def __init__(self, number:int, lastName: str, marks: list) -> None:
         self.number = number
         self.lastName = lastName
         self.marks = marks
