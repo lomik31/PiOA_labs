@@ -1,4 +1,4 @@
-file = open("files/Task8.in", "r")
+file = open("Лаба 4/files/Task8.in", "r")
 f = file.read()
 file.close()
 f = [v for v in f.replace("\t", " ").replace("\n", " ").split(" ") if v]

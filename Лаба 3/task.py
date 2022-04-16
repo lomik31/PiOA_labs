@@ -27,6 +27,6 @@ def writeMidMark(midMark, path):
     file.write(str(midMark))
     file.close()
 def main():
-    writeMidMark(calcMidValue(generateDict(readFile("files/Task4.in"))), "files/Task4.out")
+    writeMidMark(calcMidValue(generateDict(readFile("Лаба 3/files/Task4.in"))), "Лаба 3/files/Task4.out")
 if __name__ == "__main__":
     main()
