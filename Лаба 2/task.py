@@ -15,8 +15,9 @@ def noName(dict):
             list.append(i)
     return list
 def main():
-    list = noName(countValues(generateList(15)))
-    if list == []: print("Нет повторяющихся значений")
-    else: print(max(list))
+    ls = generateList(15)
+    list = noName(countValues(ls))
+    if list == []: print(f"Вектор: {ls}\nНет повторяющихся значений")
+    else: print(f"Вектор: {ls}\n{max(ls)}")
 if __name__ == "__main__":
     main()
